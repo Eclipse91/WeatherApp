@@ -36,10 +36,10 @@ WeatherApp is a simple weather application developed in Python using the Tkinter
    pip install -r requirements.txt
    ```
 
-4. Explore Configuration Below
-   Update the config.ini adding the api_key
+4. Explore Configuration Below Update the config.ini adding the api_key
+   
 
-5. Run the application:
+6. Run the application:
 
    ```bash
    python main.py
