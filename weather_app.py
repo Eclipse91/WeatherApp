@@ -16,7 +16,7 @@ class WeatherApp:
         self.root = root
         root.title("Tkinter App")
         root.geometry("1750x585")
-        root.maxsize("1980","1020")
+        root.maxsize("1920","1080")
         root.config(bg="#0077cc")
 
         # Create top frame
