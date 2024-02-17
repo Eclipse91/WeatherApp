@@ -21,7 +21,7 @@ WeatherApp is a simple weather application developed in Python using the Tkinter
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/WeatherApp.git
+   git clone https://github.com/Eclipse91/WeatherApp.git
    ```
 
 2. Navigate to the project directory:
