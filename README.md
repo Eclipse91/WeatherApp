@@ -4,10 +4,10 @@ WeatherApp is a simple weather application developed in Python using the Tkinter
 
 ## Features
 
-- Current weather details including temperature, description, wind speed, humidity, and more.
-- Weather forecasts for multiple days.
-- Air pollution information, including Air Quality Index (AQI) and pollutant concentrations.
-- User-friendly GUI with options to navigate through the search history.
+1. Access real-time weather details, encompassing temperature, description, wind speed, humidity, and comprehensive data at your fingertips.
+2. Effortlessly explore weather forecasts for multiple upcoming days by seamlessly navigating through the forecast section via intuitive buttons.
+3. Stay informed about air quality with in-depth pollution information, featuring the Air Quality Index (AQI) and concentrations of various pollutants.
+4. Experience a user-friendly Graphical User Interface (GUI) designed for ease of use, offering smooth navigation through a searchable history log. Input the name of a city or precise coordinates (longitude and latitude) to retrieve accurate and up-to-date weather information.
 
 ## Application Structure
 
@@ -62,11 +62,11 @@ Ensure to set up your OpenWeatherMap API key in the `config.ini` file:
 
 This project is licensed under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
 
-## Acknowledgements
-
-- [OpenWeatherMap API](https://openweathermap.org/api)
-
 ## Notes
 
 Feel free to contribute or report issues!
 This README provides a clearer structure, concise information, and instructions for setting up and running the WeatherApp. Adjust the content as needed for your project.
+
+## Acknowledgements
+
+- [OpenWeatherMap API](https://openweathermap.org/api)
