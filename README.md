@@ -40,7 +40,7 @@ WeatherApp is a simple weather application developed in Python using the Tkinter
    
 
 
-6. Run the application:
+5. Run the application:
 
    ```bash
    python3 main.py
