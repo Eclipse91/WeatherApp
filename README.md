@@ -9,6 +9,12 @@ WeatherApp is a simple weather application developed in Python using the Tkinter
 - Air pollution information, including Air Quality Index (AQI) and pollutant concentrations.
 - User-friendly GUI with options to navigate through the search history.
 
+## Application Structure
+
+- **weather_app.py**: Contains the WeatherApp class with the Tkinter GUI and weather-related functions.
+- **config_reader.py**: Reads and validates configuration parameters from the `config.ini` file.
+- **main.py**: Main entry point of the application.
+
 ## Requirements
 
 - Python 3.6 or higher
@@ -51,12 +57,6 @@ Ensure to set up your OpenWeatherMap API key in the `config.ini` file:
 - **Obtain Your API Key**: Once logged in, navigate to API Keys to find your unique API key (https://home.openweathermap.org/api_keys).
 - **Configure API Key in config.ini**: Open the config.ini file and set api_key = your_API_Key without using quotation marks.
 - **Activation Time**: Please note that the API key activation process may take a couple of hours, as indicated by OpenWeatherMap.
-
-## Application Structure
-
-- **weather_app.py**: Contains the WeatherApp class with the Tkinter GUI and weather-related functions.
-- **config_reader.py**: Reads and validates configuration parameters from the `config.ini` file.
-- **main.py**: Main entry point of the application.
 
 ## License
 
