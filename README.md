@@ -1,7 +1,5 @@
 # WeatherApp
 
-## Overview
-
 WeatherApp is a simple weather application developed in Python using the Tkinter library for the graphical user interface and OpenWeatherMap API for fetching weather data. It allows users to retrieve current weather information, forecasts, and air pollution details for a specified city or geographical coordinates.
 
 ## Features
