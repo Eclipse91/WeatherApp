@@ -40,21 +40,21 @@ WeatherApp is a simple weather application developed in Python using the Tkinter
    pip install -r requirements.txtsudo apt-get install python3-tk 
    ```
 
-3A. If you are using a linux debian distribution:
-
-   ```bash
-   sudo apt-get install python3-tk 
-   ```
-3B. If you are using a linux fedora distribution:
-
-   ```bash
-   sudo dnf install python3-tkinter
-   ```
-3C. If you are using a MacOS:
-
-   ```bash
-   brew install python-tk
-   ```
+   3A. If you are using a linux debian distribution:
+   
+      ```bash
+      sudo apt-get install python3-tk 
+      ```
+   3B. If you are using a linux fedora distribution:
+   
+      ```bash
+      sudo dnf install python3-tkinter
+      ```
+   3C. If you are using a MacOS:
+   
+      ```bash
+      brew install python-tk
+      ```
 
 4. Explore Configuration Below Update the config.ini adding the api_key
    
