@@ -36,9 +36,9 @@ WeatherApp is a simple weather application developed in Python using the Tkinter
 
 3. Install the required dependencies:
 
-```bash
-pip install -r requirements.txtsudo apt-get install python3-tk 
-```
+   ```bash
+   pip install -r requirements.txtsudo apt-get install python3-tk 
+   ```
 
 3A. If you are using a linux debian distribution:
    
