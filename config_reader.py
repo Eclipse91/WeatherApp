@@ -1,6 +1,5 @@
-import logging
-from datetime import datetime
 import os
+import logging
 
 
 class ConfigReader:
@@ -10,7 +9,6 @@ class ConfigReader:
     Attributes:
         parameters (dict): A dictionary to store the configuration parameters.
     '''
-
     def __init__(self):
         self.parameters = {}
 
@@ -36,23 +34,15 @@ class ConfigReader:
             if self.check_parameters():
                 logging.info('Parameters config.ini are correct')
             else:
-                logging.error("Configuration issue detected in config.ini.")
+                logging.error('Configuration issue detected in config.ini.')
                 
     def check_parameters(self):
         '''
         Check the validity of parameters.
         '''
-        # Check the presence of at least one client email
-        if not self.parameters.get('api_key'):
-            self.parameters.clear()
-            logging.error("API_Key missing")
-            return False
-        
         if self.parameters['reopen_last_session'] not in ('True', 'False'):
             self.parameters.clear()
-            logging.error("Reopen last session must be a boolean")
+            logging.error('Reopen last session must be a boolean')
             return False
         
         return True
-
-            

@@ -11,9 +11,12 @@ WeatherApp is a simple weather application developed in Python using the Tkinter
 
 ## Application Structure
 
+- **main.py**: Main entry point of the application.
 - **weather_app.py**: Contains the WeatherApp class with the Tkinter GUI and weather-related functions.
 - **config_reader.py**: Reads and validates configuration parameters from the `config.ini` file.
-- **main.py**: Main entry point of the application.
+- **config.ini**: Contains a parameter editable from the application.
+- **.env**: Reserved for storing your private API key.
+- **.gitignore**: Specifies files and directories that should be ignored by Git, such as sensitive or generated files, notably the .env file.
 
 ## Requirements
 
@@ -34,11 +37,7 @@ WeatherApp is a simple weather application developed in Python using the Tkinter
    cd WeatherApp
    ```
 
-3. Install the required dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
+3. It might be necessary to install Tkinter separately on Linux and macOS systems:
 
    - **Linux Debian Distribution:**
    
@@ -58,9 +57,15 @@ WeatherApp is a simple weather application developed in Python using the Tkinter
      brew install python-tk
      ```
 
-4. Add the API key to the config.ini under the api_key section, follow the steps outlined in the [Configuration](#configuration) section to obtain a valid API key
+4. Install the required dependencies (creating a virtual environment is strongly recommended before this step):
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. Add the API key to the .env file under the API_KEY section, follow the steps outlined in the [Configuration](#configuration) section to obtain a valid API key
    
-5. Run the application:
+6. Run the application:
 
    ```bash
    python3 main.py
@@ -68,10 +73,10 @@ WeatherApp is a simple weather application developed in Python using the Tkinter
 
 ## Configuration
 
-Ensure to set up your OpenWeatherMap API key in the `config.ini` file:
+Ensure to set up your OpenWeatherMap API key in the `.env` file:
 - **Sign In or Sign Up**: Start by signing in or creating a new account at OpenWeatherMap (https://home.openweathermap.org/users/sign_up).
 - **Obtain Your API Key**: Once logged in, navigate to API Keys to find your unique API key (https://home.openweathermap.org/api_keys).
-- **Configure API Key in config.ini**: Open the config.ini file and set api_key = your_API_Key without using quotation marks.
+- **Configure API Key in .env**: Open the .env file and set API_KEY = your_API_Key without using quotation marks.
 - **Activation Time**: Please note that the API key activation process may take a couple of hours, as indicated by OpenWeatherMap.
 
 ## License
