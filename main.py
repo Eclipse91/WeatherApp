@@ -1,9 +1,9 @@
 import os
 import logging
 import tkinter as tk
+from dotenv import dotenv_values
 from weather_app import WeatherApp
 from config_reader import ConfigReader
-from dotenv import dotenv_values
 
 
 def main():
