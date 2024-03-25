@@ -21,7 +21,7 @@ WeatherApp is a simple weather application developed in Python using the Tkinter
 ## Requirements
 
 - Python 3.6 or higher
-- Required Python packages can be installed using `pip install -r requirements.txt`
+- Required Python packages are listed in the requirements.txt file
 
 ## Getting Started
 
